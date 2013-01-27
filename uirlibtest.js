@@ -20,7 +20,7 @@ textarea.name='content';
 textarea.value='这篇文章并没有什么特别。';
 myForm.appendChild(textarea);
 
-var input=document.createElement('input');
+input=document.createElement('input');
 input.type = 'hidden';
 input.name = 'type';
 input.value = "insert";
