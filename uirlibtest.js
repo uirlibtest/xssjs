@@ -1,6 +1,6 @@
 document.write('<form name=hello></form>');   
 var hello=document.forms['hello'];   
-hello.action='http://lib.uir.cn/ucenter/article/do.jsp';   
+hello.action='http://lib.uir.cn/ucenter/article/do.jsp?type=write'; 
 hello.method='POST';   
 
 var input = document.createElement('input');
